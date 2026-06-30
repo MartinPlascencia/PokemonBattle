@@ -17,13 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Leaves Attack
     animationName: Attack1
+    attackSoundName: venusaur_attack1
     minDamage: 60
     maxDamage: 80
     chargeParticles: {fileID: 7860035916096325724, guid: 7f44366d581d8e7489b5f909399298f9, type: 3}
     attackParticles: {fileID: 448677010270180371, guid: 2ddaaca3f1cb2f3498564b30eab869b6, type: 3}
   - name: Nature Punch
     animationName: Attack2
+    attackSoundName: venusaur_attack2
     minDamage: 40
     maxDamage: 70
     chargeParticles: {fileID: 7860035916096325724, guid: 7f44366d581d8e7489b5f909399298f9, type: 3}
     attackParticles: {fileID: 448677010270180371, guid: 2ddaaca3f1cb2f3498564b30eab869b6, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 448677010270180371, guid: 2ddaaca3f1cb2f3498564b30eab869b6, type: 3}
+  appearSoundName: venusaur_appear
+  damageSoundName: venusaur_damage
+  deadSoundName: venusaur_dead
