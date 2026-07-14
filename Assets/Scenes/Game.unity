@@ -749,6 +749,7 @@ GameObject:
   - component: {fileID: 622169364}
   - component: {fileID: 622169363}
   - component: {fileID: 622169362}
+  - component: {fileID: 622169365}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -840,6 +841,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &622169365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622169360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac37ecfe9743914fb37be234ac1be4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1 &693761629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +1848,7 @@ GameObject:
   - component: {fileID: 1239791415}
   - component: {fileID: 1239791414}
   - component: {fileID: 1239791413}
+  - component: {fileID: 1239791416}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1926,6 +1940,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1239791416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239791411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac37ecfe9743914fb37be234ac1be4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!1 &1267934934
 GameObject:
   m_ObjectHideFlags: 0
